@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Halllo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="title" content="text berjalan">
+	<meta name="description" content="text berjalan">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://mysite.com/">
+	<meta property="og:title" content="text berjalan">
+	<meta property="og:description" content="text berjalan">
+	<meta property="og:image" content="./img/logo.png">
+	<meta property="twitter:url" content="https://mysite.com/">
+	<meta property="twitter:title" content="text berjalan">
+	<meta property="twitter:description" content="text berjalan">
+	<meta property="twitter:image" content="./img/logo.png">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+
+<body>
+
+	<div id="selection" class="selection">
+		<input type="text" minlength="5" id="text" placeholder="Ketik Disini :)">
+		<input type="color" id="color" value="#00afe1">
+		<button onclick="makeText()">Lanjut</button>
+	</div>
+
+	<div id="watermark" class="watermark">
+		<p>Di Buat Oleh Adnan Zainal Arifin</p>
+	</div>
+
+	<div id="display" class="display" style="display: none;">
+		<marquee width="100%" id="textDisplay" class="text" scrollamount="45" direction="left"></marquee>
+	</div>
+
+
+	<script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>
