@@ -1,2 +1,1 @@
-# Tulisan-Mlaku
-Animasi Teks
+# Anmasi Teks Berjalan By Adnan
